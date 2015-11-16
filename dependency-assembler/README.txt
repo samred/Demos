@@ -11,11 +11,6 @@ url		-	The base URL of the Repository			: central
 -DLocalRepo="/root/target/local-repo"
 Code: LocalRepository localRepo = new LocalRepository( "target/local-repo" );
 
-id		-	Idenitity of the Repository, may be null	: central 
-type		-	Type of the Repository, may be null		: default
-	  		layout - legacy (Maven 1) or default (Maven 2)
-url		-	The base URL of the Repository			: central
-
 -DArtifact="com.amazonaws:aws-java-sdk-osgi:1.10.0"
 Code: Artifact artifact = new DefaultArtifact( "com.amazonaws:aws-java-sdk-osgi:1.10.0" );
 
